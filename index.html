@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inicio</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper d-flex align-items-center">
+          <picture class="header-logo">
+            <source srcset="img/logo.png" media="(min-width: 600px)">
+            <!-- <source srcset="img/logo-m.png"> -->
+            <img src="img/logo.png" alt="MDN" height="50">
+          </picture>
+          <div class="header-search ml-auto">
+            <form action="" method="get">
+              <input id="s" type="search" name="s" placeholder="Buscar" value="">
+              <button type="submit" name="enviar">
+                <i class="zmdi zmdi-search"></i>
+              </button>
+            </form>
+          </div>
+          <div class="header-btn-burger d-block d-lg-none">
+            <button type="button" name="button" data-toogle-menu="#header-menu">
+              <i class="zmdi zmdi-menu"></i>
+            </button>
+          </div>
+          <div id="header-menu" class="header-menu">
+            <ul>
+              <li>
+                <a href="">Opcion 1</a>
+              </li>
+              <li>
+                <a href="">Opcion 2</a>
+              </li>
+              <li>
+                <a href="">Opcion 3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="app-main">
+      <section class="cover">
+        <div class="cover-bg" style="background-image: url('img/cover.jpg')"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="title">
+                Como crear una pagina web con HTML 5 y CSS 3
+              </h1>
+              <p>
+                Aprende gratis desde cero a crear un sitio web e inicia en el mundo del desarrollo web, creando platillas para tu web o tus clientes, con los conocimientos que puedes adquirir en este curso tendra las bases necesarias para iniciar tu camino al exito en el desarrollo web. Tomalo ahora!!.
+              </p>
+              <a class="btn btn-yellow"><span>Ver Curso Gratis!</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script  type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>
